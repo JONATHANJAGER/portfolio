@@ -1,0 +1,285 @@
+
+.parallax  {
+	width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+	overflow-x: hidden;
+	position: relative;
+	z-index: 1;
+	border: none;
+
+}
+
+.parallax h1 {
+	position: relative;
+	top: -2450px;
+	text-align: center;
+	font-size: 130px;
+	font-family: base 02;
+	font-weight: 700;
+	color: white;
+}
+
+.parallax p {
+	position: relative;
+	top: -2615px;
+	padding-left: 55%;
+	margin: 5px;
+    font-family: 'Tangerine';
+	font-size: 135px;
+	color: #b9b9b9;
+	stroke: red;
+	stroke-width: 5px;
+	letter-spacing: 3px;
+	z-index: 1;
+}
+
+.earth {
+	position: fixed;
+	top: 80px;
+	margin-left: 40%;
+	margin-right: 40%;
+	z-index: 1000;
+	display: block;
+    
+}
+
+.moon {
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+	top: -2500px;
+	left: 2000px;
+	z-index: 600;
+}
+
+.spaceman {
+	position: absolute;
+	margin-left: auto;
+    margin-right: auto;
+	top: 15px;
+	left: 85%;
+	z-index: 700;
+}
+
+.pie {
+	position: relative;
+	top: -2100px;
+	left: 1300px;
+	z-index: 0;
+}
+
+.pie1 {
+	position: relative;
+	top: -3500px;
+	left: -28px;
+	z-index: 2500;
+}
+
+.pie2 {
+	position: relative;
+	
+	top: -2500px;
+	left: 400px;
+	
+}
+
+.bio {
+	
+	height: 2500px;
+	z-index: 6000;
+	position: relative;
+	overflow: hidden;
+
+	width: 100%;
+
+}
+/* Hover over porfile pic */
+.image {
+	display: block;
+	width:370px;
+	height: auto;
+}
+
+.text {
+	color: white;
+	font-size:80px;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.body {
+	height: 400px;	
+	background-color: #d4d2c0;
+
+}
+.body img {
+	
+	filter: drop-shadow(0px 0px 9px black);
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    position: relative;
+    z-index: 7000;
+}
+
+.overlay-content img {
+	
+	filter: drop-shadow(0px 0px 9px black);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    position: relative;
+    z-index: 7000;
+}
+
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 9000;
+	left: 0;
+	top: 0;
+	/*background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);*/
+	background-image: url(../img/spaceback.jpg);
+	overflow-x: hidden;
+	transition: 0.5s;
+	scroll-behavior: 
+}
+
+.overlay-content {
+	position: relative;
+	top: 160px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.overlay-content h1 {
+	top: 0px;
+}
+
+.overlay-content p {
+	font-size: 60px;
+	font-family: base;
+	color: #a2a2a2;
+	top: 0px;
+	width: 80%;
+	padding-left:0px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.overlay a {
+	padding: 0px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	background-image: url(../img/j1.jpg);
+	/* color: #f1f1f1; */
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 100px;
+}
+
+.body h2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+}
+
+.body1 {
+	height:900px;
+	background-color: #cad4d6;
+}
+.body2 {
+	height:800px;
+	background-color: white;
+}
+
+
+
+.mid { 
+	 
+	background: linear-gradient(
+      #686968, #0d0e0e );
+	width:100%;
+	height: 300px;
+	text-align: center;
+	z-index: 2000;
+	overflow-x: hidden;
+	background-size: cover;
+	padding: 25px;
+
+	}	
+
+.social li {
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+
+}
+.airballon {
+	
+	position: absolute;
+	top: 4580px;
+	left: 20px;
+	filter: drop-shadow(-25px 38px 25px gray);
+	z-index: 7000;
+}
+.speaker {
+	width: 200px;
+	height: 90px;
+	left: 250px;
+	top:-1700px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	filter: drop-shadow(15px 0px 12px black);
+	z-index: 5000;
+
+}
+
+
+
+
+
+.last {
+	font-size:15px;
+	text-align: center;
+	margin-top: ;
+	color: #395163;
+	text-shadow: 1px 5px 5px solid black;
+	
+}
+
+
+
+
+
+
+
+
+
